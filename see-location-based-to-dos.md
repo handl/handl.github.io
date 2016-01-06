@@ -1,9 +1,7 @@
 ---
 layout: faq
-title: Location based
+title: How to see location based to-dos
 ---
-
-# How to see your location based to-dos
 
 1. Tap the sidebar menu.
 1. Expand **To-dos**.
