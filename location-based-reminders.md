@@ -10,3 +10,5 @@
 1. Scroll down until you see the **LOCATIONS** header.
 
 *invaild
+
+{% include footer.html %}
