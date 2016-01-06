@@ -1,6 +1,4 @@
 ---
 layout: faq
-title: Handle
+title:
 ---
-
-- [FAQ](faq)
