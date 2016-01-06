@@ -1,7 +1,7 @@
 ---
+layout: faq
+title: Location based
 ---
-
-{% include test.html %}
 
 # How to see your location based to-dos
 
