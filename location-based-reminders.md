@@ -1,6 +1,8 @@
 ---
 ---
 
+{% include header.html %}
+
 # How to see your location based to-dos
 
 1. Tap the sidebar menu.
