@@ -1,4 +1,4 @@
 ---
 ---
 
-- [Location based reminders](/location-based-reminders)
+- [How to see your location based to-dos](/location-based-reminders)
