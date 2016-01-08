@@ -1,3 +1,10 @@
+function formatTitle(title) {
+  if (title.endsWith(":")) {
+    return title.substring(0, title.length - 1);
+  }
+  return title
+}
+
 window.onload = function() {
   var targetElement = document.getElementById("table-of-contents");
   //targetElement.innerHTML = "Hello World";
@@ -18,7 +25,7 @@ window.onload = function() {
     }
     
     if (element.tagName === "H3") {
-      var text = document.createTextNode(element.innerHTML);
+      var text = document.createTextNode(formatTitle(element.innerHTML));
       var anchor = document.createElement("a");
       anchor.href = "#" + element.id;
       anchor.appendChild(text);
