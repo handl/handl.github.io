@@ -3,5 +3,12 @@ window.onload = function() {
   //targetElement.innerHTML = "Hello World";
   
   var sectionElement = document.getElementsByTagName("section")[0];
-  targetElement.innerHTML = sectionElement.childElementCount;
+  var sectionsFound = []
+  for (var i = 0; i < sectionElement.childElementCount; i++) {
+    var element = sectionElement[i];
+    if (element.tagName === "h3") {
+      sectionsFound.push(element.innerHTML);
+    }
+  }
+  targetElement.innerHTML = sectionsFound;
 }
