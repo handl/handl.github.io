@@ -5,7 +5,7 @@ window.onload = function() {
   var sectionElement = document.getElementsByTagName("section")[0];
   var sectionsFound = []
   for (var i = 0; i < sectionElement.childElementCount; i++) {
-    var element = sectionElement[i];
+    var element = sectionElement.children[i];
     if (element.tagName === "h3") {
       sectionsFound.push(element.innerHTML);
     }
