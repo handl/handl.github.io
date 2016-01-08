@@ -29,7 +29,7 @@ title: FAQ
 
 ### What email provides does Handle Support:
 
-1. Currently we only support Gmail
+Currently we only support Gmail.
 
 ### How do I change email swipe actions:
 
@@ -45,6 +45,7 @@ title: FAQ
 
 
 ##To-do
+
 ### How to delete a task
 
 1. Tap into the sidebar menu.
@@ -55,9 +56,10 @@ title: FAQ
 
 ### Can I print my To-do list?
 
-1. Currently we do not support the ability to print out a task list.
+Currently we do not support the ability to print out a task list.
 
 ##Location Based To-dos
+
 ### How to see location based to-dos:
 
 1. Tap the sidebar menu.
@@ -65,6 +67,7 @@ title: FAQ
 1. Scroll down until you see the **LOCATIONS** header.
 
 ##Calendar
+
 ### How to see my calendar events on Handle for iOS:
 
 1. Tap into the sidebar menu
@@ -79,6 +82,7 @@ If the calendars are enabled, do the following:
 4. Tap into the email address and make sure Calendars is enabled. (For those who just added the email address, you can disable Mail if you do not want to recieve mail in your apple mail inbox).
 
 ##Misc
+
 ### What to do if app crashes on start-up:
 
 1. Delete Handle from your device.
@@ -87,4 +91,4 @@ If the calendars are enabled, do the following:
 
 ### What platforms does Handle Support:
 
-1. Currently, Handle is available on iOS devices as well as PC via the chrome extensio and web.handle.com for all other browsers.
+Currently, Handle is available on iOS devices as well as PC via the chrome extensio and web.handle.com for all other browsers.
