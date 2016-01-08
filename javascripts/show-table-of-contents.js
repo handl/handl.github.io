@@ -8,6 +8,15 @@ window.onload = function() {
   
   for (var i = 0; i < sectionElement.childElementCount; i++) {
     var element = sectionElement.children[i];
+    if (element.tagName === "H2") {
+      var sectionName = element.innerHTML;
+      var sectionListItem = document.createElement("li");
+      sectionListItem.appendChild(document.createTextNode(sectionName));
+      currentList = document.createElement("ul");
+      sectionListItem.appendChild(currentList);
+      targetElement.appendChild(sectionListItem);
+    }
+    
     if (element.tagName === "H3") {
       var text = document.createTextNode(element.innerHTML);
       var anchor = document.createElement("a");
