@@ -7,13 +7,16 @@ window.onload = function() {
   for (var i = 0; i < sectionElement.childElementCount; i++) {
     var element = sectionElement.children[i];
     if (element.tagName === "H3") {
-      sectionsFound.push(element.innerHTML);
+      var anchor = document.createElement("a");
+      anchor.href = "#" + element.id;
+      var text = document.createTextNode(element.innerHTML);
+      anchor.appendChild(text);
+      targetElement.appendChild(anchor);
+      // sectionsFound.push(element.innerHTML);
     }
   }
-  var anchor = document.createElement("a");
-  anchor.href = "http://google.com";
-  var text = document.createTextNode("Hello there");
-  anchor.appendChild(text);
-  targetElement.appendChild(anchor);
+  
+  
+  // targetElement.appendChild(anchor);
   // targetElement.innerHTML = sectionsFound;
 }
