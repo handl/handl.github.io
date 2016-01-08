@@ -76,6 +76,7 @@ Currently we do not support the ability to print out a task list.
 4. Make sure the calendars you want visible are enabled
 
 If the calendars are enabled, do the following:
+
 1. Background Handle and tap into your iOS settings (the gears on your devices home screen)
 2. Tap into **Mail, Contacts, Calendars**
   *Make sure the email assocaited with the calednars you want to see are shown there. If not, add them.
