@@ -10,5 +10,10 @@ window.onload = function() {
       sectionsFound.push(element.innerHTML);
     }
   }
-  targetElement.innerHTML = sectionsFound;
+  var anchor = document.createElement("a");
+  anchor.href = "http://google.com";
+  var text = document.createTextNode("Hello there");
+  anchor.appendChild(text);
+  targetElement.appendChild(anchor);
+  // targetElement.innerHTML = sectionsFound;
 }
