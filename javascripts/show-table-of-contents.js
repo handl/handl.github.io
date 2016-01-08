@@ -3,20 +3,19 @@ window.onload = function() {
   //targetElement.innerHTML = "Hello World";
   
   var sectionElement = document.getElementsByTagName("section")[0];
-  var sectionsFound = []
+  var currentList = document.createElement("ul");
+  targetElement.appendChild(currentList);
+  
   for (var i = 0; i < sectionElement.childElementCount; i++) {
     var element = sectionElement.children[i];
     if (element.tagName === "H3") {
+      var text = document.createTextNode(element.innerHTML);
       var anchor = document.createElement("a");
       anchor.href = "#" + element.id;
-      var text = document.createTextNode(element.innerHTML);
       anchor.appendChild(text);
-      targetElement.appendChild(anchor);
-      // sectionsFound.push(element.innerHTML);
+      var listItem = document.createElement("li");
+      listItem.appendChild(anchor);
+      currentList.appendChild(listItem);
     }
   }
-  
-  
-  // targetElement.appendChild(anchor);
-  // targetElement.innerHTML = sectionsFound;
 }
