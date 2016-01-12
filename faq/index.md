@@ -4,11 +4,11 @@ title: FAQ
 ---
 ##Syncing between devices
 
-### The Chrome extension will not sync with my iOS device
+### The Chrome extension will not sync with my iOS device:
 
-1. On your iOS device, tap into the sidebar menu
-2. Tap into **Settings**
-3. Scroll all the way down and tap into **Cloud Account**
+1. On your iOS device, tap into the sidebar menu.
+2. Tap into **Settings**.
+3. Scroll all the way down and tap into **Cloud Account**.
 4. Log out of the Chrome extension and log in again the same way you did on the iOS device. If the Account Type is "Google", log back into the chrome extension by tapping on Sign in with Google. If the account type is Email/Password, log back into the Chrome exntension by entering your email address and password in the text fields that Handle provided. 
 
 ##Email
@@ -42,8 +42,8 @@ Currently we only support Gmail.
 ### How do I change email swipe actions:
 
 1. Tap into the sidebar menu.
-2. Tap into **Settings**
-3. Tap into **Swipe Options** under the EMAIL OPTIONS header
+2. Tap into **Settings**.
+3. Tap into **Swipe Options** under the EMAIL OPTIONS header.
 
 ### How do I add an email account:
 
@@ -54,7 +54,7 @@ Currently we only support Gmail.
 ### How do I designate a primary email address for sending emails:
 
 1. Tap into the sidebar menu.
-2. Tap into **Settings**
+2. Tap into **Settings**.
 The first email address under ACCOUNT TYPES will be the primary email address. You can reorer the list by tapping into each email address, remove the email address, and re-add them in the prefered order.
 
 ### If I have multiple email addresses, how do I chose which email to send a message from:
@@ -93,15 +93,15 @@ Currently we do not support the ability to print out a task list.
 
 ### How to see my calendar events on Handle for iOS:
 
-1. Tap into the sidebar menu
-2. Tap into **Settings**
-3. Scroll down and tap into **Calendars**
-4. Make sure the calendars you want visible are enabled
+1. Tap into the sidebar menu.
+2. Tap into **Settings**.
+3. Scroll down and tap into **Calendars**.
+4. Make sure the calendars you want visible are enabled.
 
 If the calendars are enabled, do the following:
 
-1. Background Handle and tap into your iOS settings (the gears on your devices home screen)
-2. Tap into **Mail, Contacts, Calendars**
+1. Background Handle and tap into your iOS settings (the gears on your devices home screen).
+2. Tap into **Mail, Contacts, Calendars**.
   *Make sure the email assocaited with the calednars you want to see are shown there. If not, add them.
 4. Tap into the email address and make sure Calendars is enabled. (For those who just added the email address, you can disable Mail if you do not want to recieve mail in your apple mail inbox).
 
